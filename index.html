@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Text to Binary Converter</title>
+  <meta name="description" content="Text to binary converter">
+  <meta name="author" content="Lori Dunford">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Scripts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="scripts/main.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+        <h4>Name to Binary Converter</h4>
+
+      <form id="form">
+
+          <div class="row">
+
+              <div class="six columns">
+                  <label for="fname">First name: </label>
+                  <input class="u-full-width" type="text" placeholder="Jane" id="fname">
+              </div>
+
+              <div class="six columns">
+                  <label for="lname">Last name: </label>
+                  <input class="u-full-width" type="text" placeholder="Doe" id="lname">
+              </div>
+
+              <button class="button-primary" type="button" onclick="convert()" >Convert</button>
+              <button class="button-primary" type="button" onclick="reset()" >Reset</button>
+
+          </div>
+      </form>
+
+      <div class="row">
+          <div class="u-full-width">
+              <p id="finput"></p>
+              <p id="foutput" class="foutput"></p>
+          </div>
+
+          <div class="u-full-width">
+              <p id="linput"></p>
+              <p id="loutput" class="loutput"></p>
+          </div>
+      </div>
+
+
+
+
+      </p>
+
+  </div>
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
